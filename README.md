@@ -22,7 +22,7 @@
 
 Атомарный claim защищает от одновременной обработки одной задачи несколькими воркерами. Однако внешний Telegram API не предоставляет универсальный idempotency key для sendMessage. При неопределённом сетевом исходе возможна повторная отправка.
 
-Retry policy, максимальное число попыток, backoff и обработка UNKNOWN результата отслеживаются в [Issue #8](https://github.com/aaminter/telegram-bot/issues/8). Не заявляется exactly-once доставка.
+Retry policy, максимальное число попыток, backoff и обработка UNKNOWN результата отслеживаются в [Issue #8](https://github.com/aaminter/telegram-reminder-bot/issues/8). Не заявляется exactly-once доставка.
 
 ## Технологии
 
