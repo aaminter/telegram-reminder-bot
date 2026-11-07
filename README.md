@@ -1,6 +1,6 @@
 # Telegram Reminder Bot
 
-![Java CI](https://github.com/aaminter/telegram-bot/actions/workflows/ci.yml/badge.svg)
+![Java CI](https://github.com/aaminter/telegram-reminder-bot/actions/workflows/ci.yml/badge.svg)
 
 Учебный backend-проект на Java и Spring Boot для работы с Telegram Bot API, PostgreSQL, Liquibase и отложенными напоминаниями.
 
